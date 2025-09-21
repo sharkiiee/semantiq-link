@@ -40,7 +40,7 @@ export default function ShowCase() {
     <div className="relative">
       <img src={rectangle} alt="" />
       <div
-        className="absolute top-[74%] right-0 w-[300px] h-[40px] z-10 py-4 text-white text-center flex items-center justify-end"
+        className="absolute top-[73%] right-0 w-[300px] h-[40px] z-10 py-4 text-white text-center flex items-center justify-end"
         style={{ backgroundColor: data[index].color }}
       >
         {data[index].text}

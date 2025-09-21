@@ -5,7 +5,7 @@ import logo3 from "/logo3.svg";
 
 export default function About() {
   const logoClass = "w-auto h-32";
-  const numberClass = "text-xl font-bold text-myBlue text-6xl";
+  const numberClass = "text-xl font-bold text-myBlue text-[3.75rem] my-4";
   return (
     <div className="relative text-center">
       <img src={bgAbout} alt=""/>
