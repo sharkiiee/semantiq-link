@@ -4,15 +4,15 @@ import logo2 from "/logo2.svg";
 import logo3 from "/logo3.svg";
 
 export default function About() {
-  const logoClass = "w-auto h-[7rem]";
-  const numberClass = "text-xl font-bold text-myBlue text-5xl";
+  const logoClass = "w-auto h-32";
+  const numberClass = "text-xl font-bold text-myBlue text-6xl";
   return (
     <div className="relative text-center">
       <img src={bgAbout} alt=""/>
       <div className="absolute top-6 p-20 w-full text-center">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <h2
-            className="text-2xl font-bold bg-clip-text text-[#1c3a5b]"
+            className="text-3xl font-bold bg-clip-text text-[#1c3a5b]"
             // style={{
             //   backgroundImage:
             //     "linear-gradient(90deg, #7893CB 10%, #728BC0 14%, #3E557C 54%, #1D3A5B 84%, #0F3051 100%)",
@@ -42,6 +42,9 @@ export default function About() {
               <p className={numberClass}>71428+</p>
               <p>Registered Websites</p>
             </div>
+          </li>
+          <li>
+
             <div className="h-20 border-l border-grey"></div>
           </li>
           <li className="flex gap-4">
@@ -50,6 +53,8 @@ export default function About() {
               <p className={numberClass}>3,194+</p>
               <p>Publishers & Writers</p>
             </div>
+          </li>
+          <li>
             <div className="h-20 border-l border-grey"></div>
           </li>
           <li className="flex gap-4">

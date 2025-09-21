@@ -74,7 +74,7 @@ export default function Services() {
                 <hr class="border-t border-black/10 m-8"/>
                 <ul className="flex flex-wrap gap-6">
                         {SERVICES.map((obj)=>{
-                            return <li key={obj.title} className="h-32 min-w-[17.9rem] max-w-[17.9rem] bg-white p-4 rounded-md">
+                            return <li key={obj.title} className="h-32 min-w-80 max-w-80 bg-white p-4 rounded-md">
                                 <img src={obj.logo} alt={obj.title} className="h-9"/>
                                 <div className="flex justify-between mt-4">
                                     <p className="text-sm text-myBlue w-44">{obj.title}</p>
