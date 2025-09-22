@@ -9,6 +9,9 @@ export default {
        colors: {
         myBlue: '#5A75AD', // give your hex a name
       },
+      fontFamily: {
+        monst: ["Montserrat", "sans-serif"],
+      }
     },
   },
   plugins: [],
